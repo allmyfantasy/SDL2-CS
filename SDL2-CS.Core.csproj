@@ -4,6 +4,12 @@
 		<Platforms>x64</Platforms>
 	</PropertyGroup>
 	<PropertyGroup>
+	    <Description>SDL2-CS (SDL2 C# wrapper) modified for SharpDL library</Description>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<Authors>Justin Skiles</Authors>
+		<PackageId>SharpDL-SDL2-CS</PackageId>
+		<PackageProjectUrl>https://github.com/babelshift/SDL2-CS</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<EnableDefaultItems>false</EnableDefaultItems>
 		<AssemblyName>SDL2-CS</AssemblyName>
 		<RootNamespace>SDL2</RootNamespace>
