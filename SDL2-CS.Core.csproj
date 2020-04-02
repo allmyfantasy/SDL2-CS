@@ -24,6 +24,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <Content Include="SharpDL-SDL2-CS.targets">
+      <PackagePath>build\</PackagePath>
+      <Pack>true</Pack>
+    </Content>
     <Content Include="lib\libfreetype-6.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <PackagePath>runtimes\win-x64\native\</PackagePath>
