@@ -26,61 +26,61 @@
     <None Include="app.config" />
     <Content Include="lib\libfreetype-6.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\libjpeg-9.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>libjpeg-9.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\libpng16-16.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>libpng16-16.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\libtiff-5.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>libtiff-5.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\libwebp-4.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>libwebp-4.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\libwebp-7.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>libwebp-7.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\SDL2.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>SDL2.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\SDL2_image.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>SDL2_image.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\SDL2_ttf.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>SDL2_ttf.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
     <Content Include="lib\zlib1.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>zlib1.dll</TargetPath>
-      <PackagePath>lib\netstandard2.0</PackagePath>
+      <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
   </ItemGroup>
