@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Platforms>x64</Platforms>
+    <Configurations>Debug;Release;Azure Pipelines Build</Configurations>
   </PropertyGroup>
   <PropertyGroup>
     <Description>SDL2-CS (SDL2 C# wrapper) modified for SharpDL library</Description>
@@ -48,12 +49,6 @@
     <Content Include="lib\libtiff-5.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>libtiff-5.dll</TargetPath>
-      <PackagePath>runtimes\win-x64\native\</PackagePath>
-      <Pack>true</Pack>
-    </Content>
-    <Content Include="lib\libwebp-4.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <TargetPath>libwebp-4.dll</TargetPath>
       <PackagePath>runtimes\win-x64\native\</PackagePath>
       <Pack>true</Pack>
     </Content>
