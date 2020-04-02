@@ -1,129 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libfreetype-6.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libfreetype-6.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\libfreetype-6.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libfreetype-6.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libjpeg-9.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libjpeg-9.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\libjpeg-9.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libjpeg-9.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libpng16-16.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libpng16-16.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\libpng16-16.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libpng16-16.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libtiff-5.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libtiff-5.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\libtiff-5.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libtiff-5.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libwebp-7.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libwebp-7.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\libwebp-7.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libwebp-7.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\SDL2.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>SDL2.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\SDL2.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>SDL2.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\SDL2_image.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>SDL2_image.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\SDL2_image.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>SDL2_image.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\SDL2_ttf.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>SDL2_ttf.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\SDL2_ttf.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>SDL2_ttf.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\zlib1.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>zlib1.dll</Link>
-		</Content>
-	</ItemGroup>
-
-	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
-		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\zlib1.dll">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>zlib1.dll</Link>
-		</Content>
-	</ItemGroup>
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libfreetype-6.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>libfreetype-6.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libjpeg-9.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>libjpeg-9.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libpng16-16.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>libpng16-16.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libtiff-5.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>libtiff-5.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libwebp-4.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>libwebp-4.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libwebp-7.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>libwebp-7.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\SDL2.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>SDL2.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\SDL2_image.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>SDL2_image.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\SDL2_ttf.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>SDL2_ttf.dll</Link>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup Condition=" '$(Platform)' == 'x64' ">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\zlib1.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Link>zlib1.dll</Link>
+        </Content>
+    </ItemGroup>
 </Project>
