@@ -6,7 +6,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <Description>SDL2-CS (SDL2 C# wrapper) modified for SharpDL library</Description>
-    <VersionPrefix>1.0.8</VersionPrefix>
+    <VersionPrefix>1.0.9</VersionPrefix>
     <Authors>Justin Skiles</Authors>
     <PackageId>SharpDL-SDL2-CS</PackageId>
     <PackageProjectUrl>https://github.com/babelshift/SDL2-CS</PackageProjectUrl>
