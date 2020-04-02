@@ -4,14 +4,14 @@
 	<ItemGroup Condition=" ('$(Configuration)' == 'Debug' Or '$(Configuration)' == 'Release') And '$(Platform)' == 'x64' ">
 		<Content Include="$(MSBuildThisFileDirectory)..\runtimes\win-x64\native\libfreetype-6.dll">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libfreetype.dll</Link>
+			<Link>libfreetype-6.dll</Link>
 		</Content>
 	</ItemGroup>
 
 	<ItemGroup Condition=" '$(Configuration)' == 'Azure Pipelines Build' And '$(Platform)' == 'x64' ">
 		<Content Include="$(MSBuildThisFileDirectory)\runtimes\win-x64\native\libfreetype-6.dll">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-			<Link>libfreetype.dll</Link>
+			<Link>libfreetype-6.dll</Link>
 		</Content>
 	</ItemGroup>
 
