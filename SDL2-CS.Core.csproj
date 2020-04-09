@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Platforms>x64</Platforms>
     <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
   <PropertyGroup>
     <Description>SDL2-CS (SDL2 C# wrapper) modified for SharpDL library</Description>
-    <VersionPrefix>1.0.12</VersionPrefix>
+    <VersionPrefix>1.0.13</VersionPrefix>
     <Authors>Justin Skiles</Authors>
     <PackageId>SharpDL-SDL2-CS</PackageId>
     <PackageProjectUrl>https://github.com/babelshift/SDL2-CS</PackageProjectUrl>
